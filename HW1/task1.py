@@ -9,6 +9,6 @@ numbers2 = [num for num in numbers if num < max_num]  # все элементы 
 
 if numbers2: 
     second_max_num = numbers2[-1]
-    print("Второй по величине элемент: " + str(second_max_num))
+    print(f"Второй по величине элемент: {second_max_num}")
 else: 
     print("Отсутствует второй по величине элемент")
