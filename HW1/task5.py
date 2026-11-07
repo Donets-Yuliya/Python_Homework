@@ -15,7 +15,7 @@ names = [name["name"] for name in employees]  # получаем список в
 years = [year["year"] for year in employees]  # получаем список всех годов из словарей
 years.sort()
 
-dict_names  = {}
+dict_names = {}
 dict_years = {x:0 for x in years}  # для сортировки годов
 
 for emp in employees: 
