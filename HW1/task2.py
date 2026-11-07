@@ -16,5 +16,4 @@ for i in range(len(words)):
     if word == word[::-1] and len(word) >= 2 and palindromes.count(word) == 0:  # palindromes.count(word) == 0 - чтобы убрать повторы слов
         palindromes.append(word)
 
-
 print(palindromes)
