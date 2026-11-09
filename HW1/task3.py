@@ -10,4 +10,3 @@ print(countries)
 new_countries = {v: k for k, v in countries.items()}
 
 print(new_countries)
-
