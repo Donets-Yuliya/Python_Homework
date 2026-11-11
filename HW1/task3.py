@@ -7,9 +7,6 @@ countries = {
 }
 print(countries)
 
-new_countries = {}
-
-for key in countries: 
-    new_countries |= {countries[key] : key}
+new_countries = {v: k for k, v in countries.items()}
 
 print(new_countries)
